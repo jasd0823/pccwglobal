@@ -1,11 +1,7 @@
 package com.pccwglobal.user.entity;
 
 
-import com.pccwglobal.email.intreface.UniqueEmail;
 import jakarta.persistence.*;
-
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "users")

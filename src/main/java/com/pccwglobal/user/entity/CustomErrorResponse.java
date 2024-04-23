@@ -1,4 +1,4 @@
-package com.pccwglobal.user.entity.dto;
+package com.pccwglobal.user.entity;
 
 public class CustomErrorResponse {
     private String message;

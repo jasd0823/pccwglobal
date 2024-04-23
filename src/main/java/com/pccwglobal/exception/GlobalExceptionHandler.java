@@ -1,10 +1,9 @@
 package com.pccwglobal.exception;
 
-import com.pccwglobal.user.entity.dto.CustomErrorResponse;
+import com.pccwglobal.user.entity.CustomErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.ErrorResponse;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
